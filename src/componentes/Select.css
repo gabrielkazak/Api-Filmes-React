@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.genre-select-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.genre-select-container button{
+    width: 2.5rem;
+    height: 2rem;
+    border: none;
+    background-color: red;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.genre-select-container button:hover{
+    background-color: transparent;
+    color:red;
+    border: 1px solid red;
+}
+
+.form-select{
+    background-color: black;
+    border: 1px solid red;
+    color: white;
+    cursor: pointer;
+    font-family: "Anton";
+}
+
+option{
+    font-family: "Anton";
+}
+
+option:hover{
+    background-color: aliceblue;
+}

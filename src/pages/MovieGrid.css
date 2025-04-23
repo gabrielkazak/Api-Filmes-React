@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.container .title{
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+.title .query-text{
+    color: rgb(255, 25, 25);
+}
+
+.movies-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.movies-container div{
+    width: 22%;
+    color: #fff;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #111;
+    padding: 1rem;
+    margin: 1%;
+}
+
+.movies-container div img{
+    max-width: 100%;
+}
+
+.movies-container div img,
+.movies-container div h2,
+.movies-container div p{
+    margin-bottom: 1rem;
+}
+
+.movies-container div svg{
+    color: rgb(255, 25, 25);
+}
+
+.movies-container div a{
+    background-color:rgb(255, 25, 25);
+    border: 2px solid rgb(255, 25, 25);
+    border-radius: 4px;
+    color: #000;
+    padding: 1rem 0.5rem;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.movies-container div a:hover{
+    background-color: #121212;
+    color: rgb(255, 25, 25);
+}
+
+.titulo{
+    margin:3rem;
+    padding-bottom: 1rem;
+    font-family: "Anton";
+    border-bottom: 3px solid rgb(255, 25, 25);
+    width: 25%;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.end{
+    margin-bottom: 100px;
+}
