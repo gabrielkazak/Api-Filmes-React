@@ -22,28 +22,28 @@ Um site em React que consome a [TMDb API](https://www.themoviedb.org/) para exib
 
 1. Clone o repositório:
 
-git clone https://github.com/seu-usuario/movie-explorer.git
-cd info_flix
+- git clone https://github.com/seu-usuario/movie-explorer.git
+- cd info_flix
 
 2. Instale as dependências:
 
-npm install
+- npm install
 
 3. Crie um arquivo .env na raiz do projeto e adicione suas variáveis:
 
-VITE_API_KEY=api_key= Sua chave da api
-VITE_API=https://api.themoviedb.org/3/movie/
-VITE_API_GENRE=https://api.themoviedb.org/3/discover/movie
-VITE_SEARCH=https://api.themoviedb.org/3/search/movie
-VITE_IMG=https://image.tmdb.org/t/p/w500/
+- VITE_API_KEY=api_key= Sua chave da api
+- VITE_API=https://api.themoviedb.org/3/movie/
+- VITE_API_GENRE=https://api.themoviedb.org/3/discover/movie
+- VITE_SEARCH=https://api.themoviedb.org/3/search/movie
+- VITE_IMG=https://image.tmdb.org/t/p/w500/
 
 4. Execute a aplicação:
 
-npm run dev
+- npm run dev
 
 
 🔐 Observação
-Você precisa criar uma conta no TMDb para obter sua própria chave de API.
+- Você precisa criar uma conta no TMDb para obter sua própria chave de API.
 
 
 💡 Possíveis melhorias
