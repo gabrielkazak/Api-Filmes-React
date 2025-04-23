@@ -57,5 +57,5 @@ Um site em React que consome a [TMDb API](https://www.themoviedb.org/) para exib
 
 
 🧑‍💻 Autor
-Gabriel – Estudante de Informática
-Projeto desenvolvido como prática de react e consumo de APIs.
+- Gabriel – Estudante de Informática
+- - Projeto desenvolvido como prática de react e consumo de APIs.
